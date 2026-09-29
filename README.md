@@ -87,19 +87,13 @@ All scenarios were benchmarked using 100 independent Monte Carlo replications to
 
 **Exp 1 — Lane Merge:** The two south-side turning lanes at Hasselbachstraße / Otto-von-Guericke-Straße are merged into a single lane. This tests pure physical capacity reduction with no other changes. Result: max queue length 14.0 veh, min queue length 1.60 veh, total throughput 2470 veh. Queuing builds sharply at the merge, confirming the bottleneck effect.
 
-<video src="https://github.com/Aakifah/urban-corridor-flow-simulator/raw/main/assets/videos/exp1-lane-merge.mp4" controls width="640"></video>
-
 ![Exp 1 — Lane Merge demo](assets/videos/exp1-lane-merge.mp4)
 
 **Exp 2 — Signal Tweaking:** Lane geometry is kept as in Exp 1, but signal timings are retuned to isolate pedestrian green from vehicular green and reduce phase conflicts. Result: max queue length 12.0 veh, min queue length 0.78 veh, total throughput 2331 veh. Peak queue drops versus Exp 1, showing signal modulation relieves pressure even though total throughput is slightly lower under the same demand window.
 
-<video src="https://github.com/Aakifah/urban-corridor-flow-simulator/raw/main/assets/videos/exp2-signal-tweaking.mp4" controls width="640"></video>
-
 ![Exp 2 — Signal Tweaking demo](assets/videos/exp2-signal-tweaking.mp4)
 
 **Exp 3 — Turn Restriction (Lane Restrict):** Through/right-turn movements are restricted with right turns rerouted, leaving effectively left-turn-only operation on the approach to cut crossing conflicts. Result: max queue length 13.0 veh, min queue length 1.64 veh, total throughput 2348 veh. Queue peaks sit between Exp 1 and Exp 2, indicating redistribution of load to alternate routes rather than pure bottleneck relief.
-
-<video src="https://github.com/Aakifah/urban-corridor-flow-simulator/raw/main/assets/videos/exp3-turn-restriction.mp4" controls width="640"></video>
 
 ![Exp 3 — Turn Restriction demo](assets/videos/exp3-turn-restriction.mp4)
 
