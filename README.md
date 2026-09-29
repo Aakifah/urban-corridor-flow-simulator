@@ -87,23 +87,17 @@ All scenarios were benchmarked using 100 independent Monte Carlo replications to
 
 **Exp 1 — Lane Merge:** The two south-side turning lanes at Hasselbachstraße / Otto-von-Guericke-Straße are merged into a single lane. This tests pure physical capacity reduction with no other changes. Result: max queue length 14.0 veh, min queue length 1.60 veh, total throughput 2470 veh. Queuing builds sharply at the merge, confirming the bottleneck effect.
 
-![Exp 1 — Lane Merge demo](assets/videos/exp1-lane-merge.mp4)
-
 [![Exp 1 — Lane Merge video](https://drive.google.com/thumbnail?id=1AerGZxVi8Gj3o99QfJUVO8HAnIOt6ZB4&sz=w1000)](https://drive.google.com/file/d/1AerGZxVi8Gj3o99QfJUVO8HAnIOt6ZB4/view?usp=drive_link)
 
 ▶️ [Watch Exp 1 demo on Google Drive](https://drive.google.com/file/d/1AerGZxVi8Gj3o99QfJUVO8HAnIOt6ZB4/view?usp=drive_link)
 
 **Exp 2 — Signal Tweaking:** Lane geometry is kept as in Exp 1, but signal timings are retuned to isolate pedestrian green from vehicular green and reduce phase conflicts. Result: max queue length 12.0 veh, min queue length 0.78 veh, total throughput 2331 veh. Peak queue drops versus Exp 1, showing signal modulation relieves pressure even though total throughput is slightly lower under the same demand window.
 
-![Exp 2 — Signal Tweaking demo](assets/videos/exp2-signal-tweaking.mp4)
-
 [![Exp 2 — Signal Tweaking video](https://drive.google.com/thumbnail?id=1ZwEBDn6_PTa4v9pLqWVf2l0ggvp8yrOs&sz=w1000)](https://drive.google.com/file/d/1ZwEBDn6_PTa4v9pLqWVf2l0ggvp8yrOs/view?usp=drive_link)
 
 ▶️ [Watch Exp 2 demo on Google Drive](https://drive.google.com/file/d/1ZwEBDn6_PTa4v9pLqWVf2l0ggvp8yrOs/view?usp=drive_link)
 
 **Exp 3 — Turn Restriction (Lane Restrict):** Through/right-turn movements are restricted with right turns rerouted, leaving effectively left-turn-only operation on the approach to cut crossing conflicts. Result: max queue length 13.0 veh, min queue length 1.64 veh, total throughput 2348 veh. Queue peaks sit between Exp 1 and Exp 2, indicating redistribution of load to alternate routes rather than pure bottleneck relief.
-
-![Exp 3 — Turn Restriction demo](assets/videos/exp3-turn-restriction.mp4)
 
 [![Exp 3 — Turn Restriction video](https://drive.google.com/thumbnail?id=16jjACTHIr0gkD2SaOjC07NByKQMZ_XhQ&sz=w1000)](https://drive.google.com/file/d/16jjACTHIr0gkD2SaOjC07NByKQMZ_XhQ/view?usp=drive_link)
 
